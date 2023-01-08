@@ -1,5 +1,6 @@
 import type { PlaywrightTestConfig } from '@playwright/test';
 import { devices } from '@playwright/test';
+import dotenv from 'dotenv';
 
 /**
  * Read environment variables from file.
@@ -10,8 +11,11 @@ import { devices } from '@playwright/test';
 /**
  * See https://playwright.dev/docs/test-configuration.
  */
+
+dotenv.config()
+
 const config: PlaywrightTestConfig = {
-  testDir: './e2e',
+  testDir: './django_todo_app',
   /* Maximum time one test can run for. */
   timeout: 30 * 1000,
   expect: {
