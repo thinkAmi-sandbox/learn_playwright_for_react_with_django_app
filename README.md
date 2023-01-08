@@ -13,3 +13,4 @@
 ## Related Blog (Written in Japanese)
 
 - [WSL2 + Playwrightな環境にて、codegen機能によりReactアプリやDjango管理サイト向けのテストコードを自動生成してみた - メモ的な思考的な](https://thinkami.hatenablog.com/entry/2023/01/02/221830)
+- [React + DjangoなWebアプリに対して、PlaywrightでいろいろなE2Eのテストコードを書いてみた - メモ的な思考的な](https://thinkami.hatenablog.com/entry/2023/01/08/172830)
